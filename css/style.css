@@ -22,6 +22,7 @@ button {
     border-radius: 5px;
     text-decoration: none;
     margin: 20px;
+    width: 130px;
 }
 
 .container {
@@ -50,7 +51,21 @@ button {
     width: 50%;
 }
  
-.col-main {
+.container-full-3 {
+    background-color: #c485857d;
+    max-width: 1900px;
+    margin-top: 11px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.col {
+    width: 100%;
+    height: 240px;
+    margin: 15px auto;
+    border: 1px solid black;
+
 }
 
 .col-30 {
@@ -80,6 +95,10 @@ button {
     width: calc(100% / 2);
 }
 
+.col-60 {
+    width: 60%;
+    background-color: violet;
+}
 
 .content-header {
     margin: 10px;
@@ -87,6 +106,23 @@ button {
 
 .colonne-main {
     display: flex;
+}
+
+.content {
+    text-align: center;
+    padding: 1px;
+    padding-top: 1px;
+    background-color: yellow;
+    height: 32px;
+    border: 1px solid green;
+    text-align: center;
+    margin-left: 0;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.content-prova {
+    line-height: 40px;
 }
 
 
