@@ -38,7 +38,7 @@ button {
 .container-full {
     max-width: 1900px;
     margin: 0 auto;
-    background-color: #B9CDE1;
+    background-color: #23a2a8;
     height: 500px;
 }
 
@@ -89,6 +89,7 @@ button {
 .col-40 {
     width: 40%;
     background-color: green;
+    height: 300px;
 }
 
 .col-50 {
@@ -98,6 +99,7 @@ button {
 .col-60 {
     width: 60%;
     background-color: violet;
+    height: 300px;
 }
 
 .content-header {
@@ -125,6 +127,10 @@ button {
     line-height: 40px;
 }
 
+
+.content-60 {
+    
+} 
 
 
 .content-main {
