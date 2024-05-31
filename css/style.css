@@ -21,6 +21,7 @@ button {
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
+    margin: 20px;
 }
 
 .container {
@@ -41,16 +42,15 @@ button {
 }
 
 .container-full-2 {
-    background-color: #390909;
+    background-color: #3909097d;
     max-width: 1900px;
-    margin: 200px;
-    height: 500px;
-    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    height: 1350px;
+    width: 50%;
 }
  
 .col-main {
-    width: 40%;
-    background-color: green;
 }
 
 .col-30 {
@@ -59,6 +59,16 @@ button {
     height: 290px;
     margin-left: 150px;
     
+}
+
+.col-33 {
+    width: 200px;
+  height: 20px;
+  background-color: lightsalmon;
+  border: 1px solid black;
+  height: 1220px;
+  margin-top: 39px;
+  padding: 31px;
 }
 
 .col-40 {
@@ -75,6 +85,12 @@ button {
     margin: 10px;
 }
 
+.colonne-main {
+    display: flex;
+}
+
+
+
 .content-main {
     width: 900px;
   height: 200px;
@@ -84,10 +100,11 @@ button {
 }
 
 #jumbo {
-    height: 400px;
-    width: 400px;
-    background-color: purple;
-    margin: 20px 20px;
+  width: 400px;
+  margin: 31px 20px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
     
 }
 
@@ -107,6 +124,11 @@ h1 {
   line-height: 2;
 }
 
+h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
 #bt-prova {
     margin: 15px 0;
 }
@@ -115,10 +137,20 @@ h1 {
     margin: 15px 0;
 }
 
+.bt-radio {
+    margin-top: 20px;
+}
 
+#second-radio {
+    margin-left: 10px;
+}
 
 .fa-solid, .fas {
     font-weight: 900;
     font-size: 30px;
     margin-top: 60px;
+  }
+
+  .lista-abbonamenti {
+    list-style-type: none;
   }
