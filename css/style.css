@@ -38,12 +38,11 @@ button {
 .container-full {
     max-width: 1900px;
     margin: 0 auto;
-    background-color: #23a2a8;
+    background-color:#B9CDE1;
     height: 500px;
 }
 
 .container-full-2 {
-    background-color: #3909097d;
     max-width: 1900px;
     margin: auto;
     margin-top: 50px;
@@ -52,7 +51,6 @@ button {
 }
  
 .container-full-3 {
-    background-color: #c485857d;
     max-width: 1900px;
     margin-top: 11px;
     height: 300px;
@@ -70,7 +68,6 @@ button {
 
 .col-30 {
     width: 30%;
-    background-color: red;
     height: 290px;
     margin-left: 150px;
     
@@ -79,7 +76,6 @@ button {
 .col-33 {
     width: 200px;
   height: 20px;
-  background-color: lightsalmon;
   border: 1px solid black;
   height: 1220px;
   margin-top: 39px;
@@ -89,13 +85,11 @@ button {
 .col-33-due {
     width: calc(100% / 3);
     height: 50px;
-    background-color: pink;
-    margin: 170px 0;
+    display: flex;
 }
 
 .col-40 {
     width: 40%;
-    background-color: green;
     height: 300px;
 }
 
@@ -120,9 +114,7 @@ button {
     text-align: center;
     padding: 1px;
     padding-top: 1px;
-    background-color: yellow;
     height: 32px;
-    border: 1px solid green;
     text-align: center;
     margin-left: 0;
     padding-top: 10px;
@@ -145,6 +137,17 @@ button {
 
 }
 
+.content-33 {
+    width: 33%;
+    height: 100px;
+    background-color: brown;
+}
+
+
+.paragrafo-sei {
+    margin-top: 12px;
+}
+
 #partner {
     width: 100%;
 }
@@ -152,8 +155,6 @@ button {
 .content-main {
     width: 900px;
   height: 200px;
-  background-color: yellow;
-  border: 1px solid black;
   margin: 5px auto;
 }
 
