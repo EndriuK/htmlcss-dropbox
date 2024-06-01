@@ -86,6 +86,13 @@ button {
   padding: 31px;
 }
 
+.col-33-due {
+    width: calc(100% / 3);
+    height: 50px;
+    background-color: pink;
+    margin: 170px 0;
+}
+
 .col-40 {
     width: 40%;
     background-color: green;
@@ -98,7 +105,6 @@ button {
 
 .col-60 {
     width: 60%;
-    background-color: violet;
     height: 300px;
 }
 
@@ -121,6 +127,7 @@ button {
     margin-left: 0;
     padding-top: 10px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .content-prova {
@@ -129,9 +136,18 @@ button {
 
 
 .content-60 {
-    
+    background-repeat: no-repeat;
+    margin-top: 30px;
 } 
 
+.content-cento {
+    margin-top: 250px;
+
+}
+
+#partner {
+    width: 100%;
+}
 
 .content-main {
     width: 900px;
