@@ -85,7 +85,14 @@ button {
 .col-33-due {
     width: calc(100% / 3);
     height: 50px;
-    display: flex;
+    margin-top: 30px;
+    background-color: burlywood;
+    padding: 10px 10px;
+}  
+
+.immagini-centrali {
+    width: 230px;
+    height: 230px;
 }
 
 .col-40 {
@@ -138,10 +145,11 @@ button {
 }
 
 .content-33 {
-    width: 33%;
+    width: calc(100% / 3);
     height: 100px;
     background-color: brown;
 }
+
 
 
 .paragrafo-sei {
