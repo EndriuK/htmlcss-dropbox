@@ -10,8 +10,10 @@ body {
 
 
 header {
-    margin-bottom: 30px;
+    
 }
+
+
 
 footer {
     background-color: black;
@@ -31,6 +33,10 @@ footer {
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+.container-header {
+    width: 100%;
 }
 
 .container-main {
@@ -88,6 +94,20 @@ footer {
 
 .content-40 {
     margin: 30px;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.span-dx {
+    text-align: right;
+    width: 786px;
+}
+
+#lista-sx {
+    list-style-type: none;
+    display: flex;
 }
 
 .col-60 {
